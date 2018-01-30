@@ -1,0 +1,104 @@
+/* Your custom styles */
+body{
+  /* background-color: #C5C6C7; */
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+.brandState{
+  font-size: 20px;
+}
+.navbar, .form, .black{
+  background-color:#080F5B;
+}
+.contactform{
+  color: #EDF5E1;
+}
+
+.navbar-brand, .brandState, .form{
+  color:#EDF5E1;
+}
+.brandState{
+  color: black;
+}
+h2{
+  color:#EDF5E1;
+}
+.projectImages{
+  max-height:400px;
+  max-width:400px;
+  box-shadow: 1px 2px 4px #05386B;
+}
+
+.Hector{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.gray{
+  background-color: #E4C580;
+  margin: 0;
+  padding: 20px;
+}
+
+footer{
+margin: 0;
+padding: 50px;
+background-color: #05386B;
+}
+.title{
+  text-align: center;
+}
+
+.projects{
+  text-align: center;
+  padding: 30px;
+}
+
+.padding{
+padding: 50px;
+}
+
+.aqua{
+  background-color: #E4C580;
+  color: #EDF5E1;
+}
+
+.bottomBox{
+    color: #EDF5E1;
+    background-color: #E4C580;
+    text-align: center;
+    font-size: 40px;
+}
+
+.facts{
+  text-align: center;
+  margin: 250px auto;
+  color: #EDF5E1;
+  font-size: 70px;
+}
+
+.profileSection{
+  height: 700px;
+}
+
+.art {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 370px;
+  overflow: hidden;
+  /* border: 1px solid red; */
+}
+
+.art2:hover, .devc:hover {
+  opacity: 0.6;
+}
+
+.art > a > img {
+  /* display: inline-block; */
+  margin: 0;
+  width: 100%;
+  height: auto;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
