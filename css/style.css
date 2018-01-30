@@ -78,11 +78,12 @@ padding: 50px;
 }
 
 .art {
-  margin-top: 10px;
+  margin-top: 50px;
   margin-bottom: 10px;
   height: 370px;
   overflow: hidden;
   /* border: 1px solid red; */
+  padding-top: 60px;
 }
 
 .art2:hover, .devc:hover {
@@ -97,4 +98,16 @@ padding: 50px;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
+}
+
+.GameTitle{
+  text-decoration: underline;
+}
+
+.footer{
+  text-align: center;
+}
+
+textarea{
+  font-size: 20px;
 }
