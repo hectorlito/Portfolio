@@ -27,30 +27,25 @@
   <link href="css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="css/style.css" rel="stylesheet">
-<sript type="text/javascript" src="typed.js"></sript>
+
+
 </head>
 
 <body>
   <!--Navbar-->
   <nav class="navbar fixed-top navbar-expand-lg scrolling-navbar">
-    <a class="navbar-brand active class" href="#particles-js"><strong>Hector Guevara</strong></a>
-    <!-- <button class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
-        </button> -->
+    <a class="navbar-brand active" id="name" href="#particles-js"><strong>Hector Guevara</strong></a>
+      <script>
+
+      var typed = new Typed("#name", {
+        strings: ["This is a JavaScript library", "This is an ES6 module"],
+        smartBackspace: true // Default value
+        });
+
+      </script>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto" id="nav-ul">
-        <!-- <li class="nav-item">
-                    <a class="nav-link navbar-brand" href="#portfolio">Projects</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link navbar-brand" href="#contact">Contact Me</a>
-                </li> -->
+
       </ul>
     </div>
   </nav>
@@ -149,6 +144,7 @@
       </div>
 
   </footer>
+  <script type="text/javascript" src="typed.js"></script>
   <!-- JQuery -->
   <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
   <!-- Bootstrap tooltips -->
