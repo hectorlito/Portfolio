@@ -8,12 +8,21 @@ body{
   font-size: 20px;
   color: black;
 }
+.brand{
+  padding-right: 60px;
+  margin-top: 21vh;
+}
 
 .navbar, .form, .black{
   background-color:#080F5B;
 }
 
-.navbar-brand, .form, .contactform{
+.navbar-brand{
+  color: White;
+  font-family: courier;
+}
+
+ .form, .contactform{
   color:#EDF5E1;
 }
 
@@ -27,20 +36,22 @@ h2{
 }
 
 .Hector{
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top: 18vh;
 }
 
 .gray{
-  background-color: #E4C580;
+  background-color: white;
   margin: 0;
   padding: 20px;
 }
 
 footer{
 margin: 0;
-padding: 50px;
+padding: 0 30px;
 background-color: #080F5B;
+position: fixed;
+bottom: 0px;
+width: 100%;
 }
 .title{
   text-align: center;
@@ -56,8 +67,8 @@ padding: 50px;
 }
 
 .aqua{
-  background-color: #E4C580;
-  color: #EDF5E1;
+  background-color: white;
+  color: lime;
 }
 
 .bottomBox{
@@ -66,11 +77,12 @@ padding: 50px;
     font-size: 40px;
 }
 
-.facts{
+.skills{
   text-align: center;
-  margin: 250px auto;
-  color: #EDF5E1;
-  font-size: 70px;
+  margin: 150px auto;
+  color:#080F5B;
+  font-size: 50px;
+  padding: 10px;
 }
 
 .profileSection{
@@ -110,4 +122,17 @@ padding: 50px;
 
 textarea{
   font-size: 20px;
+}
+
+.navtabs{
+  display: inline;
+  padding-right: 30px;
+  color:white;
+}
+
+.paddingfornav{
+  margin-top: 20px;
+}
+a{
+  color:white;
 }
