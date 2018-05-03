@@ -1,48 +1,16 @@
 /* Your custom styles */
 body{
-  /* background-color: #C5C6C7; */
   font-family: 'Josefin Sans', sans-serif;
 }
-/* brandstatement */
-.brandState{
-  font-size: 20px;
-  color: black;
-}
-.brand{
-  padding-right: 60px;
-  margin-top: 21vh;
-}
-
-.navbar, .form, .black{
+.navbar{
   background-color:#080F5B;
-}
-
-.navbar-brand{
   color: White;
-  font-family: courier;
+  font-family: courier
 }
-
- .form, .contactform{
-  color:#EDF5E1;
-}
-
-h2{
-  color:#EDF5E1;
-}
-.projectImages{
-  max-height:400px;
-  max-width:400px;
-  box-shadow: 1px 2px 4px #080F5B;
-}
-
-.Hector{
-  margin-top: 18vh;
-}
-
-.gray{
-  background-color: white;
-  margin: 0;
-  padding: 20px;
+.navtabs{
+  display: inline;
+  padding-right: 30px;
+  color:white;
 }
 
 footer{
@@ -52,87 +20,156 @@ background-color: #080F5B;
 position: fixed;
 bottom: 0px;
 width: 100%;
-}
-.title{
-  text-align: center;
+text-align: center;
 }
 
-.projects{
-  text-align: center;
-  padding: 30px;
+/***************** HOME PAGE  ***********/
+.brandState{
+  font-size: 20px;
+  color: black;
+}
+.brand{
+  padding-right: 60px;
+  padding-left: 60px;
+  margin-top: 21vh;
 }
 
-.padding{
-padding: 50px;
+.Hector{
+  margin-top: 18vh;
 }
 
-.aqua{
+.Mephoto{
   background-color: white;
-  color: lime;
-}
-
-.bottomBox{
-    color: #EDF5E1;
-    text-align: center;
-    font-size: 40px;
+  margin: 0;
+  padding: 20px;
 }
 
 .skills{
   text-align: center;
-  margin: 150px auto;
+  margin: 0px auto;
   color:#080F5B;
   font-size: 50px;
-  padding: 10px;
+  padding-top: 100px;
+  vertical-align: middle;
+  height: 250px;
+  /* border: 1px solid red; */
 }
 
-.profileSection{
-  height: 700px;
+
+/***************Contact Page  ***********/
+.ContactHeader{
+  margin-top: 100px;
+  color:#080F5B;
+  text-align: center;
+}
+.contactSpan{
+  font-size: 25px;
+}
+.form {
+background-color:#080F5B;
+color:#EDF5E1;
+height: 50%;
+font-size: 23px;
+}
+.formContainer{
+  background-color:#080F5B;
+  margin: 75px auto;
+  width: 50%;
+  height: 300px;
+}
+.contactInfo{
+  display: flex;
+  white-space: nowrap;
+  font-size: 26px;
+  padding: 5px 5px 0px 5px ;
+}
+
+.name{
+  border: .5px solid white;
+}
+.formSend{
+  text-align: center;
+  font-size: 20px;
+  background-color:#080F5B;
+  color:white;
+  margin-top: 20px;
+  /* margin-top: 10px; */
+}
+/************** Projects ***************/
+.modal{
+  height: 100%;
+  widows: 100%;
+  /* z-index: 1; */
+  position: fixed;
+  background-color: rgba(0,0,0,0.9);
+  display: none;
+}
+
+.content{
+  height: 800px;
+  width: 800px;
+  background-color: white;
+  margin-top: 100px;
+  margin-left: 500px;
+  z-index: 1;
+  overflow: auto;
+}
+
+.projectImages{
+  max-height:400px;
+  max-width:400px;
+  box-shadow: 1px 2px 4px #080F5B;
+  padding-right: 32px;
+  /* border: 3px solid red; */
 }
 
 .art {
-  margin-top: 50px;
+  margin-top: 100px;
   margin-bottom: 10px;
   height: 370px;
   overflow: hidden;
   /* border: 1px solid red; */
-  padding-top: 60px;
-}
-
-.art2:hover, .devc:hover {
-  opacity: 0.6;
-}
-
-.art > a > img {
-  /* display: inline-block; */
-  margin: 0;
-  width: 70%;
-  height: auto;
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  padding-top: 30px;
+  padding-right: 100px;
 }
 
 .GameTitle{
   text-decoration: underline;
-}
-
-.footer{
-  text-align: center;
-}
-
-textarea{
-  font-size: 20px;
-}
-
-.navtabs{
-  display: inline;
-  padding-right: 30px;
-  color:white;
+  padding-top: 20px;
 }
 
 .paddingfornav{
-  margin-top: 20px;
+  margin: 20px auto 0px auto;
+  /* border: 1px solid red; */
 }
 a{
   color:white;
+}
+
+ul{
+  list-style-type: square;
+}
+h3, h1{
+text-decoration: underline;
+}
+.sitelink{
+  color: #080F5B;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/************ MEDIA FOR MOBILE VIEW  *************/
+
+@media screen and (max-width: 1175px){
+  .skills{
+    padding-top: 50px;
+    font-size: 35px;
+    margin-bottom: 150px;
+  }
+  .brand{
+    margin-top: 10vh;
+  }
+  .contactInfo{
+    display: inline-block;
+  }
 }
