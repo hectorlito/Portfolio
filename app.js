@@ -40,7 +40,9 @@ $("#skills3").text(skills3[0]);                 // start by showing a hello
 let firstmodal = document.getElementById('1stModal')
 let secondmodal = document.getElementById('2ndModal')
 let thirdmodal = document.getElementById('3rdModal')
-
+console.log(thirdmodal);
+let xclose = document.getElementsByClassName('xgonnagiveittoyou')
+console.log(xclose);
 openModal = function(btn){
       if(btn === 'fuckit'){
         console.log("peach Apple");
@@ -59,3 +61,14 @@ window.onclick = function(event) {
         event.target.style.display = "none";
     }
   }
+
+for (var i = 0; i < xclose.length; i++) {
+  xclose[i].onclick= function(event){
+    console.log('x is closing this???');
+  if (firstmodal.style.display != "none" || secondmodal.style.display != "none" || thirdmodal.style.display != "none" ){
+  firstmodal.style.display = "none";
+  secondmodal.style.display = "none";
+  thirdmodal.style.display = "none";
+    }
+  }
+}
