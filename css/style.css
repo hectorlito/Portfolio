@@ -232,6 +232,7 @@ text-decoration: underline;
   flex-wrap: wrap;
   /* justify-content: space-around; */
   /* border: 3px solid red; */
+  margin-bottom: 150px;
 }
 
 .instagram{
@@ -241,12 +242,19 @@ margin: 0 auto;
 }
 
 .centerAbout{
+  /* display: flex;
+  flex-wrap: wrap; */
   margin-top: 70px;
   padding: 50px 150px;
   text-align: center;
 }
 /************ MEDIA FOR MOBILE VIEW  *************/
-
+@media screen and (max-width: 1175px){
+  .centerAbout{
+    margin-top: 150px;
+    padding: 5px 5px;
+  }
+}
 @media screen and (max-width: 1175px){
   .skills{
     padding-top: 50px;
