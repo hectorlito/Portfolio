@@ -94,9 +94,10 @@ font-size: 23px;
 }
 .contactInfo{
   display: flex;
+  flex-wrap: wrap;
   white-space: nowrap;
-  font-size: 26px;
-  padding: 5px 5px 0px 5px ;
+  font-size: 32px;
+  padding: 5px 5px 20px 5px ;
 }
 
 .name{
@@ -108,7 +109,6 @@ font-size: 23px;
   background-color:white;
   color:#080F5B;
   margin-top: 20px;
-  /* margin-top: 10px; */
 }
 
 .myinfo{
@@ -139,8 +139,6 @@ font-size: 23px;
 
 .modal{
   height: 100%;
-  /* width: 100%; */
-  /* z-index: 1; */
   position: fixed;
   background-color: rgba(0,0,0,0.8);
   display: none;
@@ -153,7 +151,6 @@ font-size: 23px;
   z-index: 1;
   overflow: scroll;
   border: 4px solid #080F5B;
-  /* border-radius: 60px; */
 }
 .projectInfo{
   padding: 30px;
@@ -164,13 +161,11 @@ font-size: 23px;
   min-width: 150px;
   min-height: 150px;
   box-shadow: 1px 2px 4px #080F5B;
-  /* border: 3px solid lime; */
 }
 
 .ImgModal{
   max-height: 500px;
   max-width: 1000px;
-  /* border: 5px solid orange; */
 }
 
 .carouselborder{
@@ -182,7 +177,6 @@ font-size: 23px;
   margin: 100px 30px 0px 30px;
   height: 350px;
   overflow: hidden;
-  /* border: 1px solid red; */
 }
 
 .GameTitle{
@@ -195,8 +189,6 @@ font-size: 23px;
 }
 
 .projDesc{
-  /* display: none; */
-  /* border: 3px solid pink; */
   width: 300px;
 }
 
@@ -231,8 +223,6 @@ text-decoration: underline;
   align-items: center;
   margin-top: 100px;
   flex-wrap: wrap;
-  /* justify-content: space-around; */
-  /* border: 3px solid red; */
   margin-bottom: 150px;
 }
 
@@ -243,8 +233,6 @@ margin: 0 auto;
 }
 
 .centerAbout{
-  /* display: flex;
-  flex-wrap: wrap; */
   margin-top: 70px;
   padding: 50px 150px;
   text-align: center;
@@ -273,11 +261,9 @@ margin: 0 auto;
   .brand{
     margin-top: 10vh;
   }
-  .contactInfo{
-    display: inline-block;
-  }
+
   .centerinfo{
-    padding-bottom: 50px;
+    margin-bottom: 150px;
   }
 }
 
@@ -309,13 +295,6 @@ margin: 0 auto;
     text-align: left;
   }
 }
-@media screen and (min-width: 550px){
-  .marginbottom{
-    margin-bottom: 5000000000000px;
-  }
-
-}
-
 
 input[type=submit] {
     padding:5px 15px;
