@@ -72,3 +72,14 @@ for (var i = 0; i < xclose.length; i++) {
     }
   }
 }
+
+
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    console.log("ham clicked");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
